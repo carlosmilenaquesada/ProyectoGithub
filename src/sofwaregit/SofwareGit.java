@@ -15,6 +15,12 @@ public class SofwareGit {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int resultado = suma(3, 4);
+        System.out.println(resultado);
+    }
+    
+    public static int suma(int num1, int num2){
+        return num1+num2;
     }
     
 }
